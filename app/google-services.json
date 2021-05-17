@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "191647558789",
+    "firebase_url": "https://apna-country-pizza-46418.firebaseio.com",
+    "project_id": "apna-country-pizza-46418",
+    "storage_bucket": "apna-country-pizza-46418.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191647558789:android:96550607487e14ad434dec",
+        "android_client_info": {
+          "package_name": "com.ashwathama.apnacountrypizza"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191647558789-vg06n1r5ipb8ss1u48d756chnseapv0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ashwathama.apnacountrypizza",
+            "certificate_hash": "99ece5f1dfb7ac5a658b23b6968df06a2c484954"
+          }
+        },
+        {
+          "client_id": "191647558789-af4k4k4u73n8v0v27vtduvbr1uam94qp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmhHCwnRYbn5TJODSnx-oizampQHhRGSc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191647558789-af4k4k4u73n8v0v27vtduvbr1uam94qp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

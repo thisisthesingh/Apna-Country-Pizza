@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:layout_marginTop="7dp"
+    android:layout_marginBottom="5dp"
+
+    android:elevation="10dp"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:elevation="3dp"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:id="@+id/image_pizza3list"
+            android:scaleType="centerCrop"
+
+            />
+
+        <LinearLayout
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_above="@+id/buttonaddtocart3"
+            android:layout_alignParentRight="true"
+            android:background="#AA333639"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="10"
+
+            >
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/highlight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="cursive"
+                    android:id="@+id/text_pizzamenu3"
+                    android:text="Name of pizza"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorWhite"
+                        android:text="Price for Medium Serve : "
+                        android:fontFamily="cursive"/>
+
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+
+                        android:text="Rs "
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:id="@+id/pricemedium_pizzamenu3"
+                        android:text="0"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"/>
+
+
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorWhite"
+                        android:text="Price for Small Serve : "
+                        android:fontFamily="cursive"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+
+                        android:text="Rs "
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"/>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="cursive"
+                        android:id="@+id/smallmedium_pizzamenu3"
+                        android:text="0"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="20sp"/>
+
+
+                </LinearLayout>
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <ImageView
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/img_fav3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+
+                    android:layout_weight="1"/>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/buttonaddtocart3"
+            android:background="@color/colorFeatured"
+            android:textColor="@color/colorBlack"
+
+
+            android:padding="10dp"
+
+
+            android:text="Add To Cart"
+            android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ashwathama.apnacountrypizza.Fragment.CartFragment">
+
+
+
+    <RelativeLayout
+        android:layout_marginBottom="10dp"
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_above="@+id/ta"
+            android:layout_alignParentTop="true">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycler_cart"
+
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </FrameLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/proceedbtn"
+            android:layout_margin="2dp"
+            android:id="@+id/ta"
+
+            android:layout_marginRight="20dp"
+            android:background="@color/colorBackground"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:paddingLeft="10dp"
+
+            android:paddingRight="10dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+                android:text="TOTAL AMOUNT : Rs "
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/totalamount"
+                android:layout_width="wrap_content"
+
+
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentRight="true"
+                android:text="0"
+                android:textSize="20sp"
+                android:textStyle="bold"
+
+
+                />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/proceedbtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginHorizontal="5dp"
+            android:background="@color/btn_back"
+            android:text="PROCEED"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

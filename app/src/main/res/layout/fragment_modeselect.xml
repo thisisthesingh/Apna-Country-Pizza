@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".modeselect"
+    android:background="@color/background">
+
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Mode Of payment"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:layout_gravity="center"
+
+        />
+
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_alignParentRight="true"
+
+                android:id="@+id/radiocod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash On Delivery"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+
+
+            <RadioButton
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentLeft="true"
+
+                android:id="@+id/radioo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Now"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+               android:layout_marginTop="30dp"
+                android:textStyle="bold"/>
+
+
+
+
+            </RelativeLayout>
+
+
+        </RadioGroup>
+
+            <ImageView
+                android:id="@+id/iv"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"/>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <TextView
+
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Address"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:fontFamily="sans-serif"
+                android:layout_gravity="center"
+
+                />
+
+
+                <ImageView
+                    android:id="@+id/addadressbtn"
+                    android:layout_width="20dp"
+                    app:tint="@color/black"
+                    android:layout_height="20dp"
+                    android:src="@drawable/plus"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="20dp"/>
+
+            </RelativeLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:id="@+id/recycleraddress"
+                android:layout_height="170dp">
+
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_centerInParent="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="TOTAL AMOUNT TO BE PAID : "/>
+
+                <TextView
+                    android:id="@+id/fan"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:text="0"/>
+
+                    <TextView
+                        android:layout_marginTop="30dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:text=" Rs"/>
+
+
+                </LinearLayout>
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+            <Button
+                android:layout_above="@id/cancel"
+                android:visibility="invisible"
+
+                android:id="@+id/finalpro"
+                android:layout_width="match_parent"
+                android:background="@color/colorBackground"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:text="PROCEED WITH ORDER"/>
+            <Button
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginTop="10dp"
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:background="#e12120"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorBlack"
+                android:text="Cancel"/>
+
+
+            </RelativeLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

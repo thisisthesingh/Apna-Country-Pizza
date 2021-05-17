@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ashwathama.apnacountrypizza">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+
+
+    <application
+        android:allowBackup="true"
+        tools:replace="android:icon"
+        android:icon="@drawable/iconn"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".AddAddress" />
+        <activity android:name=".AddressActivity" />
+        <activity android:name=".ChangePhone" />
+        <activity android:name=".ChangeName" />
+        <activity android:name=".Developers" />
+        <activity android:name=".SuccessfullyChangedCredentialsKnown" />
+        <activity android:name=".ChangePasswordKnown" />
+        <activity android:name=".SuccessfullyChangedCredentials" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".OnBoarding" />
+        <activity android:name=".UserDashboard" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".VerifyOTP" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.razorpay.ApiKey"
+            android:value="rzp_test_6LsoTSeNfwDOv7" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

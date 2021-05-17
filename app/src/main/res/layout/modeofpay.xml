@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#AA333639"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorWhite"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Select Mode of Payment"
+
+
+        />
+    <RadioGroup
+        android:id="@+id/rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+
+            android:layout_height="wrap_content">
+
+            <RadioButton
+
+
+
+                android:id="@+id/radiocod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash On Delivery"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+
+
+            <RadioButton
+
+                android:layout_below="@+id/radiocod"
+
+
+                android:id="@+id/radioo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pay Now"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"/>
+
+
+
+
+        </RelativeLayout>
+
+
+    </RadioGroup>
+
+
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Proceed"
+        android:textStyle="bold"
+        android:background="@color/colorBackground"
+        android:id="@+id/msproceed"
+
+        />
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:background="#DC143C"
+        android:id="@+id/mscancel"
+
+        />
+
+
+
+
+</LinearLayout>

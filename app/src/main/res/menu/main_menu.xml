@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/dj_home"
+            android:title="@string/home"/>
+
+        <item
+            android:id="@+id/dj_myorders"
+            android:title="@string/orders"/>
+
+        <item
+            android:id="@+id/dj_fav"
+            android:title="@string/favourites"/>
+
+        <item
+            android:id="@+id/dj_profile"
+            android:title="@string/profile"/>
+
+        <item
+            android:id="@+id/dj_logout"
+            android:title="@string/logout"/>
+
+        <item
+            android:id="@+id/dj_support"
+            android:title="@string/support"/>
+
+    </group>
+
+
+
+</menu>

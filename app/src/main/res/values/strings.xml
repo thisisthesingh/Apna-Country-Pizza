@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Apna Country Pizza</string>
+    <string name="developers">Developed by AT Labs</string>
+
+    <string name="name">Name</string>
+
+    <string name="skip">skip</string>
+    <string name="next">next</string>
+    <string name="frgt">Forgot Password?</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="newUser">New to Apna Country Pizza?</string>
+    <string name="signUp">Sign Up!</string>
+    <string name="login">Login!</string>
+
+    <string name="nocode">Did not receive a code?</string>
+    <string name="resend">Resend code</string>
+    <string name="edit">Edit</string>
+    <string name="address">Manage Addresses</string>
+    <string name="previous">Previous Orders</string>
+    <string name="change_pass">Change Password</string>
+    <string name="continue_">Continue</string>
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">YOUR PIZZA IS ONLINE!</string>
+    <string name="second_slide_title">LIGHTNING FAST DELIVERY</string>
+    <string name="third_slide_title">FREE WEDNESDAYS AND FRIDAYS</string>
+    <string name="fourth_slide_title">ORDER NOW! AND SIT BACK AND ENJOY</string>
+    <!--Descriptions-->
+    <string name="first_slide_desc">YOUR FAVOURITE PIZZAS ARE ONLINE AND ON THE MARKS TO GO. </string>
+    <string name="second_slide_desc">WITH THE BEST QUALITY TO QUANTITY RATIO, YOUR PIZZAS ARE PREPARED WITH MOST LOVE AND HYGIENE, YOUR PIZZAS ARE DELIVERED WITH RAPID SPEED.</string>
+    <string name="third_slide_desc">CHECK OUT OUR OFFERS ON FREE WEDNESDAYS AND FRIDAYS OFFERS.</string>
+    <string name="fourth_slide_desc">NO NEED TO PREPARE A BORING MEAL, ALL YOU NEED TO DO IS JUST ORDER NOW!.  </string>
+    <!--Buttons-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_started">Lets Get Started</string>
+
+    <string name="already">Already a member?</string>
+    <string name="enter_mobile">Enter Your Mobile number</string>
+
+    <string name="code">CO\nDE</string>
+    <string name="verification">Verification</string>
+    <string name="otp_desc">Enter the OTP sent to\n+919897969594</string>
+    <string name="otp_submit">Submit</string>
+
+    <!--    Navigation Drawer menu-->
+    <string name="home">Home</string>
+    <string name="favourites">Favourites</string>
+    <string name="orders">My Orders</string>
+    <string name="profile">My Profile</string>
+    <string name="support">Developers</string>
+    <string name="logout">Logout</string>
+
+    <string name="menu_tv">Hi, User</string>
+
+    <string name="frgt_1">User Verified!</string>
+    <string name="frgt_3">New\nCredentials</string>
+    <string name="frgt_2">Enter the new Password</string>
+    <string name="frgt_btn">Update</string>
+
+    <string name="credentialschanged">Your Credentials have been Successfully Chnaged!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

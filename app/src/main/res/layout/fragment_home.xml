@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ashwathama.apnacountrypizza.Fragment.HomeFragment"
+    android:background="@color/background"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+        <com.denzcoskun.imageslider.ImageSlider
+
+            android:layout_height="250dp"
+            android:id="@+id/image_slider2"
+
+
+            android:padding="2dp"
+            app:iss_auto_cycle="true"
+            app:iss_period="3000"
+            app:iss_delay="4000"
+
+            android:layout_margin="2dp"
+            app:iss_corner_radius="3"
+            android:layout_width="match_parent">
+
+
+
+        </com.denzcoskun.imageslider.ImageSlider>
+
+
+        </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="horizontal"
+                android:id="@+id/slider_1">
+
+                <LinearLayout
+
+                    android:layout_margin="3dp"
+                    android:layout_width="170dp"
+                    android:layout_height="280dp"
+                    android:orientation="vertical"
+
+                    android:background="@color/colorBackground">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/desc_1"
+                        android:text="Simple Veg Pizzas"
+                        android:fontFamily="sans-serif"
+                        android:textAlignment="center"
+                        android:padding="3dp"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="30sp"
+                        style="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                    android:text="A Pocket Friendly Veggie Meal for you and your Loved Ones, Ready and ON THE MARKS to go!"
+                        android:fontFamily="sans-serif"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="19dp"
+                        android:padding="9dp"
+
+
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_margin="3dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/myrecycleview"
+                    android:orientation="horizontal"
+                    >
+
+
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal"
+                android:id="@+id/slider_2">
+
+
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/myrecycleview2">
+
+
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="280dp"
+                    android:layout_marginLeft="5dp"
+
+                    android:layout_margin="5dp"
+                    android:orientation="vertical"
+
+                    android:background="@color/colorBackground">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/desc_2"
+                        android:text="Veg Treat"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        style="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kids crying for some snacks? Why worry when Apna Country Pizza is there."
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="19dp"
+                        android:padding="9dp"
+
+
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:id="@+id/slider_3">
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="280dp"
+                    android:orientation="vertical"
+                    android:layout_marginRight="5dp"
+
+                    android:background="@color/colorBackground">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/desc_3"
+                        android:text="Veg Special"
+                        android:textSize="30sp"
+                        android:fontFamily="sans-serif"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        style="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No need to worry about tonight Dinner, because we are going to make it all for you, A VEGETARIAN SPECIAL MEAL."
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="19dp"
+                        android:padding="9dp"
+
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/myrecycleview3">
+
+
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:orientation="horizontal"
+                android:id="@+id/slider_4">
+
+
+
+
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/myrecycleview4"
+                    >
+
+
+
+                </androidx.recyclerview.widget.RecyclerView>
+
+                <LinearLayout
+                    android:layout_width="170dp"
+                    android:layout_height="280dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+
+                    android:background="@color/colorBackground">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/desc_4"
+                        android:text="Veg Feast"
+                        android:fontFamily="sans-serif"
+                        android:textAlignment="center"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:layout_margin="3dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="30sp"
+                        style="@style/TextAppearance.AppCompat.Large"
+                        android:textStyle="bold"
+
+
+                        />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="A Vegetarian feast Pizza made with love, provide you with best quality you ever had"
+                        android:fontFamily="sans-serif"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="19dp"
+                        android:padding="9dp"
+
+
+                        />
+
+
+
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
